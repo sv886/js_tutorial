@@ -1,4 +1,4 @@
-# JavaScript Tutorial:
+# JavaScript Tutorial
 
 Repo containing code for
 the [*JavaScript Tutorial*](https://www.youtube.com/watch?v=fju9ii8YsGs)
