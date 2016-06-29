@@ -22,13 +22,34 @@
     <p id="sayHello"></p>
 
     <script>
+
+      // You create variables that store values with var
+      // Prompt opens a popup that requests info
       var yourName = prompt("What's your name?");
 
+      // If performs different actions depending on conditions
       if(yourName != null){
+
+        // Set text in an HTML element with the id sayHello
+        // You concatenate (combine) strings with +
         document.getElementById("sayHello").innerHTML = "Hello " + yourName;
       } else {
+
+        // Alert opens a popup that contains a message
         alert("Please enter a name next time, jabroni");
       }
+
+      // ---------- VARIABLES ----------
+      // variable names can't start with a number, contain spaces, but can
+      // contain letters, numbers, underscores or $ (Are case sensitive)
+
+      var myName = "Sebastian";
+      var myAge = 29;
+
+      // Variables don't have a defined type, which can cause problems bc
+      // the following doesn't throw an error after assigning to different
+      // value type (integer) than above (string)
+      myName = 100;
 
     </script>
 
